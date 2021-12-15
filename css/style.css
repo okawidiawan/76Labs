@@ -115,7 +115,7 @@ header .container {
     overflow: hidden;
   }
   .navigation {
-    justify-items: end;
+    justify-items: center;
     border-bottom: none;
     grid-template-rows: 0px;
   }
@@ -127,11 +127,11 @@ header .container {
   .navLinks {
     flex-direction: column;
     background-color: var(--fourth-color);
-    width: 60%;
+    width: 100%;
     height: 100vh;
-    justify-content: center;
+    justify-content: space-evenly;
     transition: 0.5s;
-    transform: translateX(700px);
+    transform: translateY(-1000px);
     padding-right: 10px;
     position: fixed;
     top: 0;
@@ -139,8 +139,8 @@ header .container {
 
   .navLink {
     width: 100%;
-    text-align: right;
-    padding: 20px 0;
+    text-align: center;
+    padding: 0;
   }
   .navLink a {
     font-weight: 700;
